@@ -13,18 +13,17 @@ export default function useLenis() {
       duration: 1.2,
       smoothWheel: true,
       wheelMultiplier: 1,
-      touchMultiplierL: 2,
+      touchMultiplier: 2,
       infinite: false,
     });
 
-    // Update ScrollTrigger on scroll
+    // Update ScrollTrigger on every Lenis scroll
     lenis.on("scroll", ScrollTrigger.update);
 
-    //use GSAP ticker insted of requestAnimationFramer
+    // Use GSAP ticker instead of requestAnimationFrame
     gsap.ticker.add((time) => {
-        lenis.raf(time * 1000);
-    })
-
+      lenis.raf(time * 1000);
+    });
 
     // Prevent lag from GSAP ticker smoothing
     gsap.ticker.lagSmoothing(0);
