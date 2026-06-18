@@ -1,107 +1,230 @@
 export const projects = [
-  {
-    id: 1,
-    slug: "ai-battle-arena",
-    title: "AI Battle Arena",
-    subtitle: "Competitive AI Gaming Platform",
-    category: "Web Application",
-    year: 2024,
-    role: "Full Stack Developer",
-    description: "An interactive platform where AI models compete against each other in strategic games.",
-    longDescription: "AI Battle Arena is a sophisticated web application that creates an environment for artificial intelligence models to compete in real-time strategy games. The platform features a robust backend for managing multiple AI instances, a real-time game engine, and an intuitive frontend for spectating and analyzing AI decisions. Built with modern web technologies, it showcases advanced concepts in game theory and machine learning integration.",
-    coverImage: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
-    gallery: [
-      "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/5632399/pexels-photo-5632399.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/5692633/pexels-photo-5692633.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-    ],
-    tags: ["React", "Node.js", "WebSocket", "AI/ML", "Game Engine"],
-    githubLink: "https://github.com/prathmeshkharwade-dev/PROJECTS/tree/main/AI%20Battle%20Arena",
-  },
-  {
-    id: 2,
-    slug: "aura-ai",
-    title: "AURA AI",
-    subtitle: "Intelligent Voice Assistant",
-    category: "AI Application",
-    year: 2024,
-    role: "Full Stack Developer",
-    description: "An advanced AI voice assistant powered by natural language processing for seamless user interactions.",
-    longDescription: "AURA AI is a cutting-edge voice assistant application that leverages advanced NLP and machine learning models to understand and respond to user commands naturally. The application features voice recognition, context-aware responses, and integration with multiple external APIs. Built with scalability in mind, it can handle complex queries and provide intelligent suggestions based on user behavior patterns.",
-    coverImage: "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
-    gallery: [
-      "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/3792581/pexels-photo-3792581.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/4765372/pexels-photo-4765372.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/5632508/pexels-photo-5632508.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/5474030/pexels-photo-5474030.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-    ],
-    tags: ["Python", "NLP", "TensorFlow", "Voice Recognition", "API Integration"],
-    githubLink: "https://github.com/prathmeshkharwade-dev/PROJECTS/tree/main/AURA%20AI",
-  },
-  {
-    id: 3,
-    slug: "moodify",
-    title: "MOODIFY",
-    subtitle: "Mood-Based Music Recommendation Engine",
-    category: "Mobile Application",
-    year: 2023,
-    role: "Full Stack Developer",
-    description: "A music streaming app that recommends songs based on your current mood and emotional state.",
-    longDescription: "MOODIFY is an innovative music platform that uses emotion detection and user preference analysis to create personalized playlists. The app analyzes facial expressions, listening history, and explicit mood selections to curate the perfect soundtrack for any moment. Features include real-time playlist generation, mood tracking over time, and social sharing capabilities with mood insights.",
-    coverImage: "https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
-    gallery: [
-      "https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/3721929/pexels-photo-3721929.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/3722622/pexels-photo-3722622.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-    ],
-    tags: ["React Native", "Express.js", "Emotion Detection", "Music API", "MongoDB"],
-    githubLink: "https://github.com/prathmeshkharwade-dev/PROJECTS/tree/main/MOODIFY",
-  },
-  {
-    id: 4,
-    slug: "negotix",
-    title: "NEGOTIX",
-    subtitle: "AI-Powered Negotiation Platform",
-    category: "SaaS Application",
-    year: 2024,
-    role: "Full Stack Developer",
-    description: "A comprehensive platform that uses AI to assist in contract negotiations and deal closures.",
-    longDescription: "NEGOTIX is an enterprise-grade negotiation platform designed to streamline business dealings. It leverages AI to analyze contracts, identify favorable and unfavorable terms, suggest counteroffers, and predict negotiation outcomes. The platform includes real-time collaboration tools, document management, negotiation analytics, and AI-powered recommendations based on historical data and market trends.",
-    coverImage: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
-    gallery: [
-      "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/3808517/pexels-photo-3808517.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/3814517/pexels-photo-3814517.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/3816514/pexels-photo-3816514.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-    ],
-    tags: ["Next.js", "FastAPI", "GPT Integration", "Document Processing", "PostgreSQL"],
-    githubLink: "https://github.com/prathmeshkharwade-dev/PROJECTS/tree/main/NEGOTIX",
-  },
-  {
-    id: 5,
-    slug: "second-brain",
-    title: "SECOND-BRAIN",
-    subtitle: "Personal Knowledge Management System",
-    category: "Web Application",
-    year: 2023,
-    role: "Full Stack Developer",
-    description: "A digital brain for storing, organizing, and retrieving knowledge with AI-powered insights.",
-    longDescription: "SECOND-BRAIN is a sophisticated knowledge management system designed as your digital second brain. It allows users to capture notes, articles, ideas, and resources, then intelligently organizes them through AI-powered tagging and relationship mapping. Features include full-text search, knowledge graph visualization, AI-generated summaries, cross-linking of related concepts, and automated organization based on learning patterns.",
-    coverImage: "https://images.pexels.com/photos/3741692/pexels-photo-3741692.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
-    gallery: [
-      "https://images.pexels.com/photos/3741692/pexels-photo-3741692.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/3808616/pexels-photo-3808616.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/3994916/pexels-photo-3994916.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/3945687/pexels-photo-3945687.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      "https://images.pexels.com/photos/4556559/pexels-photo-4556559.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-    ],
-    tags: ["React", "Node.js", "Neo4j", "Elasticsearch", "AI/ML"],
-    githubLink: "https://github.com/prathmeshkharwade-dev/PROJECTS/tree/main/SECOND-BRAIN",
-  },
+{
+id: 1,
+slug: "ai-battle-arena",
+number: "01",
+title: "AI Battle Arena",
+subtitle: "Competitive Intelligence",
+category: "AI Platform",
+year: "2025",
+role: "Full Stack Development, System Architecture",
+
+description:
+  "A real-time arena where artificial intelligence models compete against one another through strategic gameplay, decision-making, and adaptive learning.",
+
+longDescription:
+  "AI Battle Arena was conceived as an experimental environment for observing how different AI systems behave under competitive conditions. The platform combines real-time multiplayer infrastructure, intelligent agents, live analytics, and visual game simulations into a single immersive experience. Built to showcase the intersection of machine learning and interactive entertainment, the project transforms abstract algorithms into observable strategic behavior.",
+
+coverImage:
+  "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+
+heroImage:
+  "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=90",
+
+gallery: [
+  "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
+  "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80",
+  "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&q=80",
+  "https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=800&q=80",
+],
+
+tags: [
+  "React",
+  "Node.js",
+  "WebSocket",
+  "Machine Learning",
+  "Game Engine",
+],
+
+githubLink:
+  "https://github.com/prathmeshkharwade-dev/PROJECTS/tree/main/AI%20Battle%20Arena",
+
+liveLink: "#",
+
+},
+
+{
+id: 2,
+slug: "aura-ai",
+number: "02",
+title: "AURA AI",
+subtitle: "Voice Intelligence System",
+category: "Artificial Intelligence",
+year: "2025",
+role: "Full Stack Development, AI Integration",
+
+description:
+  "A conversational voice assistant built to transform natural language into meaningful actions through intelligent dialogue and contextual understanding.",
+
+longDescription:
+  "AURA AI explores the future of human-computer interaction through voice. Combining speech recognition, natural language processing, and large language models, the assistant creates fluid conversations that feel intuitive and responsive. Designed as both a productivity tool and research experiment, the platform demonstrates how modern AI systems can bridge the gap between information and action.",
+
+coverImage:
+  "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+
+heroImage:
+  "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600&q=90",
+
+gallery: [
+  "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&q=80",
+  "https://images.unsplash.com/photo-1488229297570-58520851e868?w=800&q=80",
+  "https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=800&q=80",
+  "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&q=80",
+],
+
+tags: [
+  "Python",
+  "NLP",
+  "TensorFlow",
+  "Voice Recognition",
+  "LLM",
+  "API Integration",
+],
+
+githubLink:
+  "https://github.com/prathmeshkharwade-dev/PROJECTS/tree/main/AURA%20AI",
+
+liveLink: "#",
+
+},
+
+{
+id: 3,
+slug: "moodify",
+number: "03",
+title: "MOODIFY",
+subtitle: "Emotion Driven Listening",
+category: "Music Technology",
+year: "2024",
+role: "Full Stack Development",
+
+
+description:
+  "An intelligent music recommendation platform that adapts playlists and listening experiences to the emotional state of the user.",
+
+longDescription:
+  "MOODIFY investigates the relationship between emotion and music. Through mood detection, listening behavior analysis, and personalized recommendation systems, the application creates soundtracks tailored to individual experiences. Rather than searching for music, users discover playlists generated from feelings, creating a more human-centered interaction with technology.",
+
+coverImage:
+  "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80",
+
+heroImage:
+  "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1600&q=90",
+
+gallery: [
+  "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&q=80",
+  "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80",
+  "https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=800&q=80",
+  "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=800&q=80",
+],
+
+tags: [
+  "React Native",
+  "Music API",
+  "Emotion Detection",
+  "Machine Learning",
+  "MongoDB",
+],
+
+githubLink:
+  "https://github.com/prathmeshkharwade-dev/PROJECTS/tree/main/MOODIFY",
+
+liveLink: "#",
+
+
+},
+
+{
+id: 4,
+slug: "negotix",
+number: "04",
+title: "NEGOTIX",
+subtitle: "AI-Powered Deal Intelligence",
+category: "SaaS Platform",
+year: "2025",
+role: "Full Stack Development, Product Design",
+
+
+description:
+  "A negotiation platform leveraging artificial intelligence to analyze contracts, suggest improvements, and streamline decision-making.",
+
+longDescription:
+  "NEGOTIX transforms the traditionally complex process of negotiation into a data-driven workflow. By combining document intelligence, AI-powered recommendations, and collaborative tools, the platform enables businesses to identify risks, improve agreements, and accelerate deal closures. The project demonstrates how machine learning can support high-value business decisions without sacrificing human judgment.",
+
+coverImage:
+  "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+
+heroImage:
+  "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1600&q=90",
+
+gallery: [
+  "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80",
+  "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&q=80",
+  "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&q=80",
+  "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80",
+],
+
+tags: [
+  "Next.js",
+  "FastAPI",
+  "GPT",
+  "Document AI",
+  "PostgreSQL",
+  "SaaS",
+],
+
+githubLink:
+  "https://github.com/prathmeshkharwade-dev/PROJECTS/tree/main/NEGOTIX",
+
+liveLink: "#",
+
+
+},
+
+{
+id: 5,
+slug: "second-brain",
+number: "05",
+title: "SECOND BRAIN",
+subtitle: "Knowledge Without Limits",
+category: "Productivity Platform",
+year: "2024",
+role: "Full Stack Development, Knowledge Systems",
+
+
+description:
+  "A personal knowledge management ecosystem designed to capture, connect, and rediscover information through AI-powered organization.",
+
+longDescription:
+  "SECOND BRAIN reimagines how knowledge is collected and recalled in the digital age. The platform combines note-taking, semantic search, graph visualization, and AI-assisted insights to create a living network of information. Rather than storing isolated notes, users build an interconnected system where ideas evolve through relationships, context, and discovery.",
+
+coverImage:
+  "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80",
+
+heroImage:
+  "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1600&q=90",
+
+gallery: [
+  "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
+  "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
+  "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=80",
+  "https://images.unsplash.com/photo-1513258496099-48168024aec0?w=800&q=80",
+],
+
+tags: [
+  "React",
+  "Node.js",
+  "Neo4j",
+  "Elasticsearch",
+  "Knowledge Graph",
+  "AI",
+],
+
+githubLink:
+  "https://github.com/prathmeshkharwade-dev/PROJECTS/tree/main/SECOND-BRAIN",
+
+liveLink: "#",
+
+
+},
 ];
