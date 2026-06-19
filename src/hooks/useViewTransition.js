@@ -1,7 +1,8 @@
 "use client";
+
 import gsap from "@/libs/gsap";
 import { useRouter } from "next/navigation";
-import { useCallback } from "react";
+import { useCallback, useEffect } from "react";
 
 const STRIP_COUNT = 12;
 
@@ -19,7 +20,6 @@ const createStrips = () => {
   for (let i = 0; i < STRIP_COUNT; i++) {
     const strip = document.createElement("div");
     strip.style.cssText = `
-        
         flex: 1;
         height: 100%;
         background-color: #34e2a5;
@@ -31,7 +31,6 @@ const createStrips = () => {
   }
 
   document.body.appendChild(overlay);
-
   return overlay;
 };
 
@@ -41,23 +40,25 @@ const removeOverlay = () => {
 };
 
 const useViewTransition = () => {
-  removeOverlay();
-
   const router = useRouter();
+
+  // ✅ Only clean up on mount, not on every render
+  useEffect(() => {
+    removeOverlay();
+  }, []);
 
   const navigateTo = useCallback(
     (href) => {
       const overlay = createStrips();
-
       const strips = Array.from(overlay.children);
 
       gsap.to(strips, {
         scaleY: 1,
         duration: 0.58,
         ease: "power3.inOut",
-        stagger:{
-            each: 0.06,
-            from:'edges'
+        stagger: {
+          each: 0.06,
+          from: "edges",
         },
         onComplete: () => {
           router.push(href);
@@ -67,10 +68,10 @@ const useViewTransition = () => {
             duration: 0.7,
             ease: "power3.inOut",
             delay: 0.12,
-            stagger:{
-            each: 0.06,
-            from:'edges'
-        },
+            stagger: {
+              each: 0.06,
+              from: "edges",
+            },
             transformOrigin: "top",
             onComplete: removeOverlay,
           });
