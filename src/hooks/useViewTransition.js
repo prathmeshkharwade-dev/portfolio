@@ -42,7 +42,7 @@ const removeOverlay = () => {
 const useViewTransition = () => {
   const router = useRouter();
 
-  // ✅ Only clean up on mount, not on every render
+  
   useEffect(() => {
     removeOverlay();
   }, []);
